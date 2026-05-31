@@ -1,0 +1,29 @@
+# Target build directories
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE specific files and folders
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
