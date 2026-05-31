@@ -59,8 +59,16 @@
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
+                        <phase>package</phase>
                         <goals>
                             <goal>jar</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>generate-javadocs</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>javadoc</goal>
                         </goals>
                     </execution>
                 </executions>
