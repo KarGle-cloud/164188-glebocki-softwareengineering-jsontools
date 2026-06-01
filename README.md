@@ -44,16 +44,16 @@ The server exposes a single POST endpoint to run the transformations.
   ```
 - **Output**: `{"title":"JSON Tools","version":1.1}`
 
-#### 2. Key Filtering and Minifying Example
-- **URL**: `http://localhost:8080/api/json?transforms=filter,minify&keys=title`
-- **Input**:
+#### 2. Pretty-Printing Example
+- **URL**: `http://localhost:8080/api/json?transforms=pretty`
+- **Input**: `{"title":"JSON Tools"}`
+- **Output**:
   ```json
   {
     "title": "JSON Tools",
     "version": 1.1
   }
   ```
-- **Output**: `{"title":"JSON Tools"}`
 
 ---
 
